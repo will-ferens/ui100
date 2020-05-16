@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>UI 100 - Day 1</title>
+    <meta name="description" content="Sign Up Form">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./src/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8cf18483fb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <main>
+            <div class="form-container">
+                <form>
+                    <div>
+                        <h2>Create an account</h2>
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input class="text-input"  />
+
+                            <label>Email</label>
+                            <input class="text-input"  />
+
+                            <label>Phone</label>
+                            <input class="text-input"  />
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Date of birth</h3>
+                        <div class="form-group-date">
+                            <div class="dropdown" id="months">
+                                <span>November</span>
+                                <i class="fas fa-caret-down"></i>
+                            </div>
+                            <div class="dropdown" id="days">
+                                <span>24</span>
+                                <i class="fas fa-caret-down"></i>
+                            </div>
+                            <div class="dropdown" id="years">
+                                <span>1991</span>
+                                <i class="fas fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="submit-wrapper">
+                        <button class="btn btn-submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+
+    <script src="./src/app.js"></script>
+</body>
+
+</html>

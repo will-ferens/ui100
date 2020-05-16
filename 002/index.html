@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Daily UI 002</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./src/main.css">
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <main>
+            <section class="product-summary">
+                <div class="image-wrapper">
+                    <img src="./assets/templeton_deck.png">
+                </div>
+                <div class="product-details">
+                    <div class="product-header">
+                        <h2>NEW DEAL <br /> ED TEMPLETON <br />SCREEN PRINTED DECK</h2>
+                    </div>
+                    <div class="product-body">
+                        <div class="price-container">
+                            <h3>TOTAL</h3>
+                            <span>$79.95</span>
+                        </div>
+                        <h4 class="low-stock">Only 3 left in stock</h4>
+                        <h3 class="details-heading">DETAILS</h3>
+                        <ul>
+                            <li>1988 original Templeton design</li>
+                            <li>7 ply hardrock maple construction</li>
+                            <li>8.75" shaped deck</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="checkout">
+                <div class="checkout-header">
+                    <h2>PAY WITH CARD</h2>
+                </div>
+                <form>
+                    <div class="form-group">
+                        <label>Name on card</label>
+                        <input class="text-input" />
+                        <label>Card number</label>
+                        <input class="text-input" />
+                        <div class="input-group">
+                            <div class="label-group">
+                                <label>Expiry date</label>
+                                <label>Security code</label>
+                            </div>
+                            <div class="inputs">
+                                <input class="text-input" />
+                                <input class="text-input" />
+                            </div>
+                        </div>
+                        <label>ZIP/Postal code</label>
+                        <input class="text-input zip" />
+                    </div>
+                    <div class="bt-wrapper">
+                        <button type="submit" class="btn btn-submit">BUY $79.95</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+        
+        <script src="./src/app.js"></script>
+    </body>
+</html>

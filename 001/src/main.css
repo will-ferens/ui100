@@ -1,0 +1,81 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Playfair Display', serif;
+}
+main {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-container {
+    height: 600px;
+    width: 400px;
+    padding: 32px;
+    border: 2px solid #333;
+    border-radius: 4px;
+    box-shadow: 14px -12px #ADF4FF;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    font-size: 18px
+}
+.text-input {
+    margin: 0 0 12px 0;
+    padding: 12px 0 6px 0;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+    font-family: 'Helvetica', sans-serif;
+}
+.form-group-date {
+    display: flex;
+    justify-content: space-between;
+}
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    width: 20%;
+    margin: 0 6px 0 0 ;
+    height: 32px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-content: center;
+}
+
+.dropdown#months {
+    width: 40%;
+}
+
+.dropdown span {
+    padding: 0 4px;
+    line-height: 32px;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.fas.fa-caret-down {
+    color: #9EE8DE;
+}
+
+.submit-wrapper {
+    margin: 150px 0 0 0;
+}
+
+.btn.btn-submit {
+    border: 2px solid #333;
+    font-family: 'Playfair Display', serif;
+    border-radius: 4px;
+    font-size: 18px;
+    height: 50px;
+    width: 120px;
+    background: none;
+    box-shadow: 8px -6px #ADF4FF;
+}
