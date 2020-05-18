@@ -39,6 +39,7 @@ label {
     justify-content: space-between;
 }
 .dropdown {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,6 +52,8 @@ label {
     align-content: center;
 }
 
+
+
 .dropdown#months {
     width: 40%;
 }
@@ -59,6 +62,38 @@ label {
     padding: 0 4px;
     line-height: 32px;
     font-family: 'Helvetica', sans-serif;
+}
+.dropdown .dropdownList {
+    visibility: hidden;
+}
+.dropdown.show .dropdownList {
+    visibility: visible;
+}
+
+.dropdownList {
+    top: 24px;
+    position: absolute;
+    bottom: 0;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    z-index: 10;
+    height: 200px;
+    overflow: scroll;
+    border: 2px solid #333;
+    border-radius: 4px;
+}
+
+.dropdown-item {
+    font-family: 'helvetica', sans-serif;
+    padding: 8px 4px;
+    background: #fff;
+    cursor: pointer;
+
+}
+
+.dropdown-item:hover {
+    background: #9EE8DE;
 }
 
 .fas.fa-caret-down {
