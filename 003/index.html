@@ -49,15 +49,23 @@
         </div>
         <main>
             <div class="image-wrapper">
-                <img src="assets/nobleman_crop.jpg" />
+                <img class="img" id="splash-image" src="assets/nobleman_crop.jpg" />
             </div>
             <div class="masters-wrapper">
                 <h3>SEE THE MASTERS</h3>
-                <ul>
-                    <li>EL GRECO</li>
-                    <li>BATTISTA</li>
-                    <li>VEL&Aacute;ZQUEZ</li>
-                    <li>GOYA</li>
+                <ul class="masters-list">
+                    <li onmouseover="changeImage('assets/nobleman_crop.jpg')">
+                        <a href="">EL GRECO </a>
+                    </li>
+                    <li onmouseover="changeImage('assets/battista_immaculate.jpg')">
+                        <a href="">BATTISTA</a>
+                    </li>
+                    <li onmouseover="changeImage('assets/valazquez_meninas.jpg')">
+                        <a href="">VEL&Aacute;ZQUEZ </a>
+                    </li>
+                    <li onmouseover="changeImage('assets/goya_flight.jpg')">
+                        <a href="">GOYA </a>
+                    </li>
                 </ul>
             </div>
         </main>

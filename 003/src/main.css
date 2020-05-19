@@ -67,6 +67,20 @@ main {
     display: flex;
 }
 
-.image-wrapper img{
-    height: 50%;
+.image-wrapper {
+    width: 70%;
+}
+
+.masters-list {
+    padding: 0;
+    margin-top: 32px;
+}
+
+.masters-list li {
+    padding: 12px 0;
+}
+
+.image-wrapper .img{
+    width: 100%;
+    height: auto;
 }
