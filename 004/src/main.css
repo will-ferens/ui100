@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Helvetica', sans-serif;
+}
+
+main {
+    height: 380px;
+    width: 276px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.output {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+    padding: 12px;
+    height: 15%;
+}
+
+.output h1 {
+    padding-right: 12px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.input .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 69px;
+}
+
+.input .button p {
+    font-size: 24px;
+}
+
+.input .button.operator {
+    background-color: #000;
+    color: #fff;
+}
+
+.input .button.zero {
+    width: 50%;
+}
+
+.input .button:active {
+    background-color: #ccc;
+}
+
+.input .button.operator:active {
+    background-color: #aaa;
+}
