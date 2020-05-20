@@ -55,6 +55,10 @@ main {
     color: #fff;
 }
 
+.input .button.clear {
+    background-color: #aaa;
+}
+
 .input .button.zero {
     width: 50%;
 }
