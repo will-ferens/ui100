@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+}
+
+.profile-card {
+    background-color: #666;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-content {
+    width: 60%;
+}
+.profile-card .header {
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+.profile-card .header .profile-info {
+    padding: 24px;
+}
+
+.profile-card .header .profile-info .icon-wrapper {
+    padding: 8px 0;
+}
+.profile-card .header figure .profile-pic {
+    height: 250px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+}
+
+.actions {
+    height: 50%;
+    width: 80%;
+}
+
+.actions .action-list {
+    padding: 0;
+}
+
+.actions .action-list .action-list-item {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 0;
+}
+
+.actions .action-list .action-list-item .action-list-heading i {
+    float: left;
+    padding: 6px 6px 6px 0;
+}
