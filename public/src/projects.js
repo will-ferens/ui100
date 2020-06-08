@@ -3,37 +3,43 @@ const projectContents = [
         number: 1,
         title: 'Sign Up Form',
         description: 'The ubiquitous and deceiptively simple sign up form.',
-        thumbnail: ''
+        thumbnail: '',
+        url: '001/index.html'
     },
     {
         number: 2,
-        title: '',
+        title: 'Check Out Form',
         description: '',
-        thumbnail: ''
+        thumbnail: '',
+        url: '002/index.html'
     },
     {
         number: 3,
-        title: '',
+        title: 'Landing Page',
         description: '',
-        thumbnail: ''
+        thumbnail: '',
+        url: '003/index.html'
     },
     {
         number: 4,
-        title: '',
+        title: 'Calculator',
         description: '',
-        thumbnail: ''
+        thumbnail: '',
+        url: '004/index.html'
     },
     {
         number: 5,
-        title: '',
+        title: 'App Icon',
         description: '',
-        thumbnail: ''
+        thumbnail: '',
+        url: '005/index.html'
     },
     {
         number: 6,
-        title: '',
+        title: 'Social Profile',
         description: '',
-        thumbnail: ''
+        thumbnail: '',
+        url: '006/index.html'
     },
 ]
 

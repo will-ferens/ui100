@@ -4,23 +4,26 @@ const projectList = document.querySelector('#project-list');
 
 
 projectContents.forEach(current => {
-    console.log(current)
     let element = document.createElement('div');
     
     element.className = 'project-item';
+
+    let link = document.createElement('a');
+    link.href = current.url;
+    element.appendChild(link)
     
     let heading = document.createElement('h4');
     heading.innerHTML = current.title;
-    element.appendChild(heading);
+    link.appendChild(heading);
 
     let image = document.createElement('img');
     image.src = current.thumbnail;
-    element.appendChild(image);
+    link.appendChild(image);
 
     let description = document.createElement('p');
     description.innerHTML = current.description;
-    element.appendChild(description);
+    link.appendChild(description);
 
     projectList.appendChild(element);
 
-})
+});
