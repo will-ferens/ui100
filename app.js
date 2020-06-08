@@ -2,6 +2,9 @@ const express = require('express');
 const app = express();
 const fs = require('fs');
 const path = require('path');
+const dotenv = require('dotenv');
+
+dotenv.config()
 
 const directoryPath = path.join(__dirname, 'public');
 
@@ -26,3 +29,6 @@ fs.readdir(directoryPath, function (err, files) {
     });
 });
 
+app.listen(process.env.PORT || 8080, function() {
+    console.log(process.env.PORT)
+});
