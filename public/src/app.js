@@ -16,9 +16,9 @@ projectContents.forEach(current => {
     heading.innerHTML = current.title;
     link.appendChild(heading);
 
-    let image = document.createElement('img');
+    let image = document.createElement('div');
     image.classList = 'preview-img';
-    image.src = current.thumbnail;
+    image.style.backgroundImage = `url(${current.thumbnail})`;
     link.appendChild(image);
 
     let description = document.createElement('p');
