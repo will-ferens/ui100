@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    font-family: 'Merriweather', serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    padding: 18px 24px;
+}
+
+main.container {
+    margin: 24px;
+    border-top: 1px solid #ccc;
+}
+
+#project-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 18px;
+    justify-content: center;
+}
+
+#project-list .project-item {
+    width: 25%;
+    padding: 8px;
+}
+
+#project-list .project-item .preview-img {
+    max-width: 100%;
+    padding-bottom: 75%;
+}

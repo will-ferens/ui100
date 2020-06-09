@@ -17,6 +17,7 @@ projectContents.forEach(current => {
     link.appendChild(heading);
 
     let image = document.createElement('img');
+    image.classList = 'preview-img';
     image.src = current.thumbnail;
     link.appendChild(image);
 

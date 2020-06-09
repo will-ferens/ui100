@@ -15,20 +15,18 @@ app.get('/', function(req, res) {
 });
 
 fs.readdir(directoryPath, function (err, files) {
-    //handling error
     if (err) {
-        return console.log('Unable to scan directory: ' + err);
+        return console.log('Unable to read directory: ' + err);
     } 
     //listing all files using forEach
     files.forEach(function (file) {
-        // Do whatever you want to do with the file
+        // fetching each page from files
         app.get('/', function(req, res) { 
-
             res.sendFile(file + '/index.html'); 
         })
     });
 });
 
-app.listen(process.env.PORT || 8080, function() {
-    console.log(process.env.PORT)
+app.listen(8080, function() {
+    console.log('howdy');
 });
