@@ -27,6 +27,8 @@ fs.readdir(directoryPath, function (err, files) {
     });
 });
 
-app.listen( 8080, function() {
+//process.env.PORT
+
+app.listen( process.env.PORT || 8080, function() {
     console.log('howdy');
 });
