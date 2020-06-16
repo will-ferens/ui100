@@ -17,16 +17,16 @@
     <script src="https://kit.fontawesome.com/8cf18483fb.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body class="flex-container">
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <main>
+        <main class="flex-container">
             <div class="form-container">
                 <form>
                     <div>
                         <h2>Create an account</h2>
-                        <div class="form-group">
+                        <div class="form-group flex-container">
                             <label>Name</label>
                             <input class="text-input"  />
 
@@ -39,19 +39,19 @@
                     </div>
                     <div>
                         <h3>Date of birth</h3>
-                        <div class="form-group-date">
-                            <div class="dropdown" id="months" onClick="showDropdown('#months')">
+                        <div class="form-group-date flex-container">
+                            <div class="dropdown flex-container" id="months" onClick="showDropdown('#months')">
                                 <span id="selected-month"></span>
                                 <i class="fas fa-caret-down"></i>
                                 <ul id="monthsDropdown" class="dropdownList"></ul>
                             </div>
-                            <div class="dropdown" id="days" onClick="showDropdown('#days')">
+                            <div class="dropdown flex-container" id="days" onClick="showDropdown('#days')">
                                 <span id="selected-day"></span>
                                 <i class="fas fa-caret-down"></i>
                                 <ul id="daysDropdown" class="dropdownList"></ul>
                             </div>
-                            <div class="dropdown" id="years" onClick="showDropdown('#years')">
-                                <span id="selected-year"></span>
+                            <div class="dropdown flex-container" id="years" onClick="showDropdown('#years')">
+                                <span id="selected-year">\\\\</span>
                                 <i class="fas fa-caret-down"></i>
                                 <ul id="yearsDropdown" class="dropdownList"></ul>
                             </div>

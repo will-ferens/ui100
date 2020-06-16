@@ -37,9 +37,6 @@ const getDaysInMonth = (month, year) => {
     dropdownBuilder(daysList, days);
 };
 
-// while(daysList.firstChild) {
-//     daysList.removeChild(daysList.lastChild);
-// }
 const selected = {
     month: { number: 11, name: 'November' },
     day: '24',
@@ -116,6 +113,7 @@ const showDropdown = (element) => {
 
 dropdownBuilder(monthsList, months);
 dropdownBuilder(yearsList, years);
+getDaysInMonth(selected.month.number, (selected.year * 1));
 
 monthsList.addEventListener('click',
     (event) => {
