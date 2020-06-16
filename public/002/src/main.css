@@ -60,7 +60,7 @@ ul {
 .checkout {
     width: 30%;
     height: 70%;
-    background: #dedede;
+    background: #f5f5f5;
     padding: 12px;
 }
 
@@ -94,9 +94,7 @@ form label {
     border-bottom: 1px solid #eee;
     font-family: 'Helvetica', sans-serif;
 }
-.low-stock {
-    color: #FF0000
-}
+
 .input-group {
     display: flex;
     flex-direction: column;
@@ -132,4 +130,38 @@ form label {
     height: 50px;
     width: 100%;
     background: #000;
+}
+
+/* ------ BREAKPOINT 1 ----- */
+
+@media only screen and (max-width: 1296px) {  
+    .product-summary {
+        flex-direction: column;
+    }
+    .product-summary .image-wrapper img {
+        height: 250px;
+    }
+
+    .product-details .product-header {
+        padding: 0 0 12px 0;
+    margin: 0 0 12px 0;
+    }
+}
+
+/* ------ BREAKPOINT 2 ----- */
+
+@media only screen and (max-width: 991px) {  
+    main {
+        flex-direction: column;
+        width: 100%;
+    }
+    .product-summary {
+        flex-direction: row;
+        width: 70%;
+        height: auto;
+    }
+
+    .checkout {
+        width: 70%;
+    }
 }
